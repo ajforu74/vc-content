@@ -2990,6 +2990,13 @@ ul.breadcrumbs {
 	margin: 25px -20px;
 }
 
+.glosary .glosary-videos.center
+{
+
+	-webkit-justify-content: center;
+			justify-content: center;
+}
+
 .glosary .glosary-videos .list-item
 {
 	box-sizing: border-box;
