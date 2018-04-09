@@ -3087,8 +3087,45 @@ ul.breadcrumbs {
 		width: 100%;
 	}
 
-	.vc-sections-container .best-articles-section .col,
-	.vc-sections-container .latest-posts .col
+
+/* Case studios list */
+.list-studios
+{
+	margin: 0 -15px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+}
+
+.list-studios .list-item
+{
+	box-sizing: border-box;
+	padding: 15px;
+	width: 25%;
+}
+
+@media (min-width: 768px) and (max-width: 1019px) {
+	.list-studios .list-item
+	{
+		width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.list-studios .list-item
+	{
+		width: 50%;
+	}
+}
+
+@media (max-width: 510px) {
+	.list-studios .list-item
 	{
 		width: 100%;
 	}
