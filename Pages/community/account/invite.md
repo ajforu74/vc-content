@@ -15,8 +15,8 @@ permalink: account/invite
                         <a class="button fill" style="width: 400px;" href="account/externallogin?authType=GitHub&returnUrl=/vc-community"><i class="fa fa-github"></i> Log in with GitHub</a>
                         <!--<a class="btn btn-default btn-lg btn-block" href="account/externallogin?authType=StackExchange&returnUrl=/vccom/vc-community"><i class="fa fa-stack-overflow"></i> Log in with StackExchange</a>-->
                     </div>
-                    <p style="padding-left: 170px;">&mdash; {{ 'common.or' | t }}  &mdash;</p>
-                    <label style="padding-left: 120px;"for="email">Create Your Account</label>
+                    <p>&mdash; {{ 'common.or' | t }}  &mdash;</p>
+                    <label for="email">Create Your Account</label>
                     <input style="width: 400px;" type="email" tabindex="1" value="" class="form-input" name="email" id="email" placeholder="{{ 'customer.recover_password.email' | t }}" autocorrect="off" autocapitalize="off">
                     <p>
                         <input style="width: 400px;" type="submit" class="button fill" tabindex="2" value="Sign in for a free account" />
