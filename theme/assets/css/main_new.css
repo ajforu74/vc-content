@@ -3084,15 +3084,14 @@ ul.breadcrumbs {
 }
 
 @media (max-width: 640px) {
-	.glosary .glosary-article .glosary-pic
-	{
-		display: block;
-		float: none;
-		margin: 0 0 20px;
-		max-width: 100%;
-		width: 100%;
-	}
-
+    .glosary .glosary-article .glosary-pic {
+        display: block;
+        float: none;
+        margin: 0 0 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+}
 
 /* Case studios list */
 .list-studios
