@@ -3233,6 +3233,9 @@ ul.breadcrumbs {
 .text-center {
     text-align: center !important;
 }
+.text-normal {
+    word-spacing: 0px;
+}
 
 .form-file
 {

@@ -39,10 +39,8 @@ storefrontApp.controller('accountController', ['$scope', '$window', '$localStora
     };
 
     $scope.getInvite = function () {
-        debugger;
         var email = $scope.customer.email; 
         accountApi.getInvite({ Emails: [email] }).$promise.then(function (response) {
-            debugger;
             if (response.succeeded)
                 document.location.href = "account/confirminvite";
             else
