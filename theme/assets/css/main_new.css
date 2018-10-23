@@ -3082,7 +3082,7 @@ ul.breadcrumbs>li+li::before {
 }
 
 .amster~.costumers .list-pic {
-    max-height: 150px;
+    max-height: 100px;
     max-width: 100%;
 }
 

@@ -111,7 +111,7 @@ tags :
                 </li>
                 <li class="list-item">
                     <a class="list-link">
-                        <img src="assets/images/casestudies/volvocars-logo.png" alt="" class="list-pic">
+                        <img src="assets/images/casestudies/volvo.png" alt="" class="list-pic">
                     </a>
                 </li>
             </ul>
