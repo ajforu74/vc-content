@@ -1,7 +1,7 @@
 ---
 aliases:
   - docs/vc2devguide/deployment/platform-deployment/source-code-getting-started
-date: '2017-08-31'
+date: '2018-08-31'
 layout: docs
 title: 'Deploy Platform from source code'
 
@@ -25,7 +25,7 @@ Fork your own copy of VirtoCommerce Platform to your account on GitHub:
 2. If you are a member of an organization on GitHub, select the target for the fork.
 3. Clone the forked repository to local machine:
   ```
-  git clone https://github.com/<<your GitHub user name>>/vc-platform.git C:\vc-platform
+  git clone https://github.com/vc-platform/vc-platform.git C:\vc-platform
   ```
 4. Switch to the cloned directory:
   ```
@@ -50,8 +50,14 @@ Build the solution.
 
 ## Configure SQL Server
 
+To be able to use default sql connection string with **(local)** hostname and **server authentication** credentials
+  ```
+ <add name="VirtoCommerce" connectionString="Data Source=(local);Initial Catalog=VirtoCommerce2;Persist Security Info=True;User ID=virto;Password=virto;MultipleActiveResultSets=True;Connect Timeout=420" providerName="System.Data.SqlClient" />
+  ```
+You need to check the follow options in the SQL/SqlExpress setup
+![Restore NuGet packages for solution](../../../../assets/images/docs/sqlexpress-setup-2.JPG "Set default instance")
 SQL Server Authentication mode must be enabled.  
-![Configure SQL Server](../../../../assets/images/docs/image2015-4-7_11-44-53.png "Configure SQL Server") 
+![Restore NuGet packages for solution](../../../../assets/images/docs/sqlexpress-setup-1.JPG "Mixed server and Windows authentication")
 
 Create the new login named **virto** with password **virto**. The password policy enforcement should be switched off for a simple password like this.
 
