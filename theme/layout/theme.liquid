@@ -43,9 +43,6 @@
     {% include 'autopilot' %}
 </head>
 <body ng-controller="mainController" ng-cloak>
-    {% if can_track %}
-        {% include 'gdpr-cookie-compliance' %}
-    {% endif %}
     {% include 'apps-identifier' %}
     {% include 'form-become-a-developer' %}
     {% include 'form-write-a-review' %}
