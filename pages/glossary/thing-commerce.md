@@ -29,7 +29,9 @@ tags :
                 <h1 itemprop="headline" class="glosary-t">How is "Thing Commerce" Transforming the Way We Do Business?</h1>
             </div>
             <div class="glossary-article">
-                <img src="/assets/images/internet-of-things.jpg" />
+                <div style="text-align:center">
+                    <img src="/assets/images/internet-of-things.jpg" height="485" width="485" />
+                </div>
                 <div class="text">
                     Have you heard of the Internet of Things or IoT? Well, it’s been one of the hottest trends in the IT sector over the past couple of years. IoT touches on every aspect of our lives but what’s shocking is its continued growth in the world of e-commerce leading to what we are now calling, "Thing Commerce".
                 </div>
