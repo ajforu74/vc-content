@@ -51,6 +51,7 @@ aliases:
                             <option value="North & South America">North & South America</option>
                             <option value="Europe">Europe</option>
                             <option value="Asia Pacific">Asia Pacific</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>
                     <div class="control-group">
